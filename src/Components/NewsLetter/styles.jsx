@@ -1,0 +1,113 @@
+import styled from 'styled-components'
+
+
+export const Container = styled.section`
+    display: flex;
+    background-color: #1a202c;    
+    height: 200px;      
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2em;
+
+
+
+`
+
+
+export const NewsLetterContent = styled.div`
+
+width: 700px;
+color: white;
+padding: 10px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+flex-flow: column wrap;
+border-radius: 10px;
+
+
+
+
+.infoDeals{
+    font-size: 1.2em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding: 5px;
+    text-align: center;       
+    width: 100%;
+    
+   
+
+}
+
+.latestDealsContent{
+    
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.latestDealsContent input{
+    padding: 8px;
+    outline: none;
+    font-size: 0.9em; 
+    border-radius: 2px;
+    border: solid 1px #1a202c;  
+    letter-spacing: 1px;
+    
+    background-color: white;
+    width: 66%;
+    
+
+}
+.latestDealsContent input:focus{
+    
+    color: #1a202c;
+}
+
+.latestDealsContent button{
+    padding: 9px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    color: #1a202c;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s linear;
+}
+.latestDealsContent button:hover{
+    background-color: #a5a5a5;
+}
+
+
+
+.termsContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.termsContainer mark{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+`
