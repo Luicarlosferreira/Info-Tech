@@ -24,3 +24,4 @@ vite.config.js
 *.sln
 *.sw?
 .env.local
+.eslintignore
