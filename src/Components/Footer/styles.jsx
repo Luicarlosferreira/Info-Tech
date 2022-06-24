@@ -193,7 +193,7 @@ export const Container = styled.footer`
     }
   }
 
-  @media (max-width: 536px) {
+  @media (max-width: 552px) {
     .footerContacts {
       display: flex;
       flex-flow: column wrap;
@@ -228,7 +228,7 @@ export const Container = styled.footer`
     }
   }
 
-  @media (max-width: 390px) {
+  @media (max-width: 419px) {
     .footerContacts {
       display: flex;
       flex-flow: column wrap;
@@ -244,7 +244,42 @@ export const Container = styled.footer`
       gap: 5px;
       padding: 15px;
       align-items: center;
-      font-size: 1.2em;
+      font-size: 1.1em;
+    }
+    .footerContacts div:nth-child(1) button {
+      width: 30%;
+      font-size: 0.6em;
+      letter-spacing: 2px;
+    }
+
+    .footerConfigurations {
+      display: flex;
+      gap: 1em;
+      flex-flow: column wrap;
+    }
+    .footerConfigurations a {
+      color: #1a202c;
+      font-size: 0.6em;
+    }
+  }
+
+  @media (max-width: 330px) {
+    .footerContacts {
+      display: flex;
+      flex-flow: column wrap;
+      padding: 1em;
+      gap: 10px;
+      font-size: 12px;
+    }
+
+    .footerContacts div {
+      background-color: white;
+      display: flex;
+      flex-flow: column wrap;
+      gap: 5px;
+      padding: 15px;
+      align-items: center;
+      font-size: 0.8em;
     }
     .footerContacts div:nth-child(1) button {
       width: 30%;

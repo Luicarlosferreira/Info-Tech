@@ -1,17 +1,14 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   background-color: #1a202c;
-  margin: 3em 0;
   border-bottom: 1px solid gray;
 
   .loginContent {
-    /* border-bottom: solid 1px white; */
-    /* border-top: solid 1px white; */
+    margin: 0;
   }
 
   .loginContent form {
@@ -365,7 +362,7 @@ export const Section = styled.section`
       width: 650px;
       height: 2px;
     }
-    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -452,7 +449,7 @@ export const Section = styled.section`
       width: 50%;
       height: 2px;
     }
-    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -539,7 +536,7 @@ export const Section = styled.section`
       width: 50%;
       height: 1px;
     }
-    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -626,7 +623,7 @@ export const Section = styled.section`
       width: 50%;
       height: 1px;
     }
-    width: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;

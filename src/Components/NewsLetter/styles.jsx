@@ -166,7 +166,7 @@ export const NewsLetterContent = styled.div`
     }
     .termsContainer {
       display: flex;
-      font-size: 10px;
+      font-size: 9px;
     }
   }
 
@@ -200,6 +200,41 @@ export const NewsLetterContent = styled.div`
       align-items: center;
       justify-content: left;
       font-size: 10px;
+      flex-flow: row wrap;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 392px) {
+    .infoDeals {
+      font-size: 0.8em;
+    }
+
+    .latestDealsContent {
+      width: 100%;
+      padding: 1px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .latestDealsContent input {
+      font-size: 0.8em;
+      width: 55%;
+    }
+    .latestDealsContent input:focus {
+      color: #1a202c;
+    }
+
+    .latestDealsContent button {
+      padding: 9px;
+      font-size: 8px;
+    }
+    .termsContainer {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: left;
+      font-size: 9px;
       flex-flow: row wrap;
       width: 100%;
     }

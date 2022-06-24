@@ -3,6 +3,7 @@ import { Container } from "./styles";
 import { useFetch } from "../../hooks/useFetch";
 import { FaOpencart, FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Spinner from "../../Components/Tools/Spinner";
 
 export const Product = () => {
   const { id } = useParams();
@@ -25,8 +26,8 @@ export const Product = () => {
         )}
       </div>
       <div id="productsCard" className="card">
-        {loading && <p>Carregando...</p>}
-        {error && <p>{error}</p>}
+        {loading && <Spinner />}
+        {error && <p className="error">{error}</p>}
 
         {item && (
           <div className="detailsContent">
