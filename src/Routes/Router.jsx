@@ -3,7 +3,7 @@ import { Header } from "../Components/Header";
 import { ScrollToTop } from "./ScrollToTop";
 import { Section } from "../Components/Section";
 import { SectionItems } from "../Components/Section/SectionItems";
-import { Login } from "../pages/login";
+import { Login } from "../pages/login/index";
 import { NotFound } from "../pages/notFound";
 import { Product } from "../pages/product";
 import { Register } from "../pages/register";

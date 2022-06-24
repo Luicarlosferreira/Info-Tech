@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server" : "json-server --watch src/data/db.json"
+    "server": "json-server --watch src/data/db.json"
   },
   "dependencies": {
     "json-server": "^0.17.0",
@@ -23,6 +23,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "eslint-plugin-react": "^7.30.1",
     "vite": "^2.9.9"
   }
 }
