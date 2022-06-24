@@ -1,2 +1,1 @@
-Application with Vite/React-JS
-Focused with store and routes Concept.
+Training components/routes/hooks-Fetch/dataHooks concepts.
