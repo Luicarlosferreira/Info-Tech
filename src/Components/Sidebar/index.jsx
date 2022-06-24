@@ -7,6 +7,7 @@ import {
   FaDesktop
   
 } from 'react-icons/fa'
+import {Link} from  'react-router-dom';
 
 
 
@@ -22,9 +23,11 @@ const Sidebar = ({ active }) => {
     <Container sidebar={active}>
       <FaTimes onClick={closeSidebar} />  
       <Content>
-        <SidebarItem Icon={FaHome} Text="Home" />                
-        <SidebarItem Icon={FaDesktop} Text="Products" />
-        <SidebarItem Icon={FaUserAlt} Text="About us" />
+        <Link to="/" onClick={closeSidebar}><SidebarItem  Icon={FaHome} Text="Home" /></Link> 
+        <Link to="products" onClick={closeSidebar}><SidebarItem  Icon={FaDesktop} Text="Products" /></Link>
+        <Link to="login" onClick={closeSidebar}><SidebarItem  Icon={FaUserAlt} Text="Sign In" /></Link>                      
+        
+        
         
       </Content>
     </Container>

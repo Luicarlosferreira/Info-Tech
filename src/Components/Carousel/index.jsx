@@ -17,7 +17,9 @@ export default function SimpleSlider() {
     autoplaySpeed: 2000,
     cssEase: "linear",
     
-  };
+ 
+    
+   } ;
   return (
 
     <Container>   

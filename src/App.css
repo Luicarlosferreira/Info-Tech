@@ -1,11 +1,11 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-body{
-    background-color: #1a1f2b;
-    
+body {
+  background-color: #1a1f2b;
+  -webkit-font-smoothing: antialiased !important;
 }

@@ -1,24 +1,15 @@
-import {Header} from './Components/Header/index'
-import { Section } from './Components/Section/index'
-import { NewsLetter} from './Components/NewsLetter/index'
-import { Footer } from './Components/Footer'
-
+import { NewsLetter } from "./Components/NewsLetter/index";
+import { Footer } from "./Components/Footer";
+import { Router } from "./Routes/Router";
 
 function App() {
- 
-
   return (
-
     <div className="App">
-      
-      <Header />
-      <Section />
+      <Router />
       <NewsLetter />
       <Footer />
-
     </div>
-  
-  )
+  );
 }
 
-export default App
+export default App;

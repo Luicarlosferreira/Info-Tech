@@ -1,17 +1,13 @@
-import React from 'react'
-import { Container } from './styles'
-import { GoSearch } from  "react-icons/go";
-import { SearchInput } from './SearchInput';
-
+import React from "react";
+import { Container } from "./styles";
+import { SearchInput } from "./SearchInput";
 
 const SearchField = () => {
   return (
     <Container>
-      <SearchInput Search="Search your product..." />     
-      <GoSearch /> 
-
+      <SearchInput Search="Search your product..." />
     </Container>
-  )
-}
+  );
+};
 
-export default SearchField
+export default SearchField;
