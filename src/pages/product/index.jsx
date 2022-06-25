@@ -4,10 +4,11 @@ import { useFetch } from "../../hooks/useFetch";
 import { FaOpencart, FaAngleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Spinner from "../../Components/Tools/Spinner";
+import { server } from "../../server/server";
 
 export const Product = () => {
   const { id } = useParams();
-  const url = "http://localhost:3000/product/" + id;
+  const url = server + id;
 
   const { data: item, loading, error } = useFetch(url);
 

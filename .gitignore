@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.env.local
 dist
 dist-ssr
 *.local
@@ -23,5 +24,7 @@ vite.config.js
 *.njsproj
 *.sln
 *.sw?
-.env.local
 .eslintignore
+node_modules
+.env.local
+

@@ -41,7 +41,7 @@ export const NewsLetter = () => {
             />
             <p>
               I have read and accepted Info-Tech's
-              <mark> general conditions</mark> and <mark>privacy policy</mark>.
+              <mark> all conditions</mark> and <mark>privacy policy</mark>.
             </p>
           </div>
         </NewsLetterContent>

@@ -68,7 +68,7 @@ export const Login = () => {
           </p>
           <p>
             <FiCheck />
-            Save your payment and shipping details and save time
+            Save your payment and save time
           </p>
           <p>
             <FiCheck />
