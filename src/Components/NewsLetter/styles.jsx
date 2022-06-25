@@ -90,7 +90,14 @@ export const NewsLetterContent = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 650px) {
+  @media (max-width: 693px) {
+    width: 100%;
+    form {
+      width: 95%;
+    }
+  }
+
+  @media (max-width: 651px) {
     width: 100%;
     color: white;
     padding: 10px;
