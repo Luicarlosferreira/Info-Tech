@@ -27,4 +27,5 @@ vite.config.js
 .eslintignore
 node_modules
 .env.local
+public
 
